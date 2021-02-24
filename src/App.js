@@ -1,14 +1,13 @@
 import React from 'react';
-import Hello from './Hello';
-import Wrapper from './Wrapper';
+import Counter from './Counter';
+// import Hello from './Hello';
+// import Wrapper from './Wrapper';
+import counter from './Counter';
 
 
 function App() {
   return (
-    <Wrapper>
-    <Hello name="장성호" color="green" isSpecial />
-    <Hello color="blue" />
-    </Wrapper>
+    <Counter />
   );
 }
 
