@@ -1,13 +1,15 @@
 import React from 'react';
-import Counter from './Counter';
+import InputSample from './InpustSample';
+
+// import Counter from './Counter';
 // import Hello from './Hello';
 // import Wrapper from './Wrapper';
-import counter from './Counter';
+
 
 
 function App() {
   return (
-    <Counter />
+    <InputSample />
   );
 }
 
