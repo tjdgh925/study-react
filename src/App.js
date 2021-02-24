@@ -1,9 +1,14 @@
+import React from 'react';
 import Hello from './Hello';
+import Wrapper from './Wrapper';
 
 
 function App() {
   return (
-    <Hello />
+    <Wrapper>
+    <Hello name="장성호" color="green"/>
+    <Hello color="blue" />
+    </Wrapper>
   );
 }
 
