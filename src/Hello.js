@@ -1,11 +1,13 @@
 import react from 'react';
 import React from 'react';
 
-function Hello({color, name}) {
+function Hello({color, name, isSpecial}) {
     return(
         <>
         <div>Hello World!</div>
-        <div style={{color:color}}>My name is {name}</div>
+        <div style={{color:color}}>
+            {isSpecial && <b>**</b>}
+            My name is {name}</div>
         </>
     )
 }
