@@ -42,9 +42,9 @@ function useInputs(initialForm){
         const {name, value} = e.target;
         dispatch({type:'CHANGE', name, value});
     },[]);
-    const reset = useCallback(()=>
+    const onReset = useCallback(()=>
         dispatch({type:'RESET'}),[])
-    return [form, onChange, reset]
+    return [form, onChange, onReset]
 }
 
 export default useInputs;
